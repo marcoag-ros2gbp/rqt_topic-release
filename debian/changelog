@@ -1,0 +1,351 @@
+ros-rolling-rqt-topic (1.7.1-2noble) noble; urgency=high
+
+  * Add explicit python3-pytest dependency. (#48 <https://github.com/ros-visualization/rqt_topic/issues/48>)
+  * Contributors: Chris Lalancette
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 07 Feb 2024 00:00:00 -0000
+
+ros-rolling-rqt-topic (1.7.0-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 28 Apr 2023 00:00:00 -0000
+
+ros-rolling-rqt-topic (1.6.1-2noble) noble; urgency=high
+
+  * [rolling] Update maintainers - 2022-11-07 (#43 <https://github.com/ros-visualization/rqt_topic/issues/43>)
+  * Contributors: Audrow Nash
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 14 Feb 2023 00:00:00 -0000
+
+ros-rolling-rqt-topic (1.6.0-2noble) noble; urgency=high
+
+  * Implement bandwidth monitoring (#40 <https://github.com/ros-visualization/rqt_topic/issues/40>)
+  * Contributors: Audrow Nash, Chris Lalancette, Jacob Perron
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 13 Sep 2022 00:00:00 -0000
+
+ros-rolling-rqt-topic (1.3.0-2noble) noble; urgency=high
+
+  * Fix the display of array type elements. (#41 <https://github.com/ros-visualization/rqt_topic/issues/41>)
+  * Fix removal of topics while they are being monitored. (#39 <https://github.com/ros-visualization/rqt_topic/issues/39>)
+  * Contributors: Chris Lalancette
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 10 May 2022 00:00:00 -0000
+
+ros-rolling-rqt-topic (1.2.3-2noble) noble; urgency=high
+
+  * Update maintainers to Audrow Nash (#37 <https://github.com/ros-visualization/rqt_topic/issues/37>)
+  * Contributors: Audrow Nash
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 06 Apr 2022 00:00:00 -0000
+
+ros-rolling-rqt-topic (1.2.2-2noble) noble; urgency=high
+
+  * Fix modern setuptools warning about dashes instead of underscores (#34 <https://github.com/ros-visualization/rqt_topic/issues/34>)
+  * Remove obsolete warnings (#31 <https://github.com/ros-visualization/rqt_topic/issues/31>)
+  * Contributors: Chris Lalancette, Michael Jeronimo
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 31 Aug 2021 00:00:00 -0000
+
+ros-rolling-rqt-topic (1.2.1-2noble) noble; urgency=high
+
+  * Add pytest.ini to silence warnings when running locally.
+  * Fix warnings pointed out by flake8.
+  * Contributors: Chris Lalancette
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 06 Apr 2021 00:00:00 -0000
+
+ros-rolling-rqt-topic (1.2.0-2noble) noble; urgency=high
+
+  * Created an entry-point for rqt_topic in setup.py (#16 <https://github.com/ros-visualization/rqt_topic/issues/16>)
+  * Fix flake8 errors and add linter tests (#28 <https://github.com/ros-visualization/rqt_topic/issues/28>)
+  * Update Open Robotics Maintainer (#26 <https://github.com/ros-visualization/rqt_topic/issues/26>)
+  * Use raw / non-string value for ordering (#23 <https://github.com/ros-visualization/rqt_topic/issues/23>)
+  * Support order fields as defined in message (#22 <https://github.com/ros-visualization/rqt_topic/issues/22>)
+  * Fix the type cell value for sequence items (#21 <https://github.com/ros-visualization/rqt_topic/issues/21>)
+  * Updated version package and license in setup.py (#17 <https://github.com/ros-visualization/rqt_topic/issues/17>)
+  * Contributors: Alejandro Hernández Cordero, Dirk Thomas, Scott K Logan
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 19 Mar 2021 00:00:00 -0000
+
+ros-rolling-rqt-topic (1.1.0-2noble) noble; urgency=high
+
+  * set qos_profile (#14 <https://github.com/ros-visualization/rqt_topic/issues/14>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 13 Nov 2019 00:00:00 -0000
+
+ros-rolling-rqt-topic (1.0.0-2noble) noble; urgency=high
+
+  * removing the spinner from the ros2 port (#11 <https://github.com/ros-visualization/rqt_topic/issues/11>)
+  * Merge pull request #9 <https://github.com/ros-visualization/rqt_topic/issues/9> from ros-visualization/ros2_port
+  * Porting to ROS2
+  * autopep8 (#6 <https://github.com/ros-visualization/rqt_topic/issues/6>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 05 Mar 2019 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.10-2noble) noble; urgency=high
+
+  * fix order by bandwidth column (#4 <https://github.com/ros-visualization/rqt_topic/issues/4>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 16 Nov 2017 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.9-2noble) noble; urgency=high
+
+  * fix section resize toggle with Qt5 (#2 <https://github.com/ros-visualization/rqt_topic/issues/2>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 06 Nov 2017 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.8-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 24 Apr 2017 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.7-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 02 Mar 2017 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.6-2noble) noble; urgency=high
+
+  * remove usage of undocumented cStringIO.StringIO len attribute (#434 <https://github.com/ros-visualization/rqt_common_plugins/pull/434>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 27 Feb 2017 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.5-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 03 Feb 2017 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.4-2noble) noble; urgency=high
+
+  * use Python 3 compatible syntax (#421 <https://github.com/ros-visualization/rqt_common_plugins/pull/421>)
+  * catch unhandled exceptions when rosmaster disappears while widget is running (#419 <https://github.com/ros-visualization/rqt_common_plugins/pull/419>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 24 Jan 2017 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.3-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 02 Nov 2016 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.2-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 19 Sep 2016 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.1-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 16 May 2016 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.4.0-2noble) noble; urgency=high
+
+  * Support Qt 5 (in Kinetic and higher) as well as Qt 4 (in Jade and earlier) (#359 <https://github.com/ros-visualization/rqt_common_plugins/pull/359>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 27 Apr 2016 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.13-2noble) noble; urgency=high
+
+  * check for divide by zero and data failures
+  * Contributors: Aaron Blasdel
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 08 Mar 2016 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.12-2noble) noble; urgency=high
+
+  * Save/Restore of headers added
+  * Contributors: Aaron Blasdel
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 24 Jul 2015 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.11-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 30 Apr 2015 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.10-2noble) noble; urgency=high
+
+  * update plugin scripts to use full name to avoid future naming collisions
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 01 Oct 2014 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.9-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 18 Aug 2014 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.8-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 15 Jul 2014 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.7-2noble) noble; urgency=high
+
+  * export architecture_independent flag in package.xml (#254 <https://github.com/ros-visualization/rqt_common_plugins/issues/254>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 11 Jul 2014 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.6-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 02 Jun 2014 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.5-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 07 May 2014 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.4-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 28 Jan 2014 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.3-2noble) noble; urgency=high
+
+  * add groups for rqt plugins, renamed some plugins (#167 <https://github.com/ros-visualization/rqt_common_plugins/issues/167>)
+  * catch and show exceptions #198 <https://github.com/ros-visualization/rqt_common_plugins/issues/198>
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 08 Jan 2014 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.2-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 14 Oct 2013 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.1-2noble) noble; urgency=high
+
+  * improve rqt_topic initialization time (#62 <https://github.com/ros-visualization/rqt_common_plugins/issues/62>)
+  * modified toggling topics to use checkbox instead of context menu (#75 <https://github.com/ros-visualization/rqt_common_plugins/issues/75>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 09 Oct 2013 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.3.0-2noble) noble; urgency=high
+
+  * fix cleaning old data in rqt_topic (fix #74 <https://github.com/ros-visualization/rqt_common_plugins/issues/74>)
+
+ -- Brandon Ong <brandon@openrobotics.org>  Wed, 28 Aug 2013 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.17-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 04 Jul 2013 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.16-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 09 Apr 2013 13:33:00 -0000
+
+ros-rolling-rqt-topic (0.2.15-2noble) noble; urgency=high
+
+  * Improve API (now either name or msg type are select-able in order to select which topics to monitor).
+  * API change to accept a list of the topics that this plugin watches.
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 09 Apr 2013 00:02:00 -0000
+
+ros-rolling-rqt-topic (0.2.14-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 14 Mar 2013 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.13-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 11 Mar 2013 22:14:00 -0000
+
+ros-rolling-rqt-topic (0.2.12-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 11 Mar 2013 13:56:00 -0000
+
+ros-rolling-rqt-topic (0.2.11-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 08 Mar 2013 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.10-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Tue, 22 Jan 2013 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.9-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 17 Jan 2013 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.8-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 11 Jan 2013 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.7-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Mon, 24 Dec 2012 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.6-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Sun, 23 Dec 2012 00:00:00 -0000
+
+ros-rolling-rqt-topic (0.2.5-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 21 Dec 2012 19:11:00 -0000
+
+ros-rolling-rqt-topic (0.2.4-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 21 Dec 2012 01:13:00 -0000
+
+ros-rolling-rqt-topic (0.2.3-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Fri, 21 Dec 2012 00:24:00 -0000
+
+ros-rolling-rqt-topic (0.2.2-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 20 Dec 2012 18:29:00 -0000
+
+ros-rolling-rqt-topic (0.2.1-2noble) noble; urgency=high
+
+
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 20 Dec 2012 17:47:00 -0000
+
+ros-rolling-rqt-topic (0.2.0-2noble) noble; urgency=high
+
+  * first release of this package into groovy
+
+ -- Brandon Ong <brandon@openrobotics.org>  Thu, 20 Dec 2012 17:39:00 -0000
+
+
